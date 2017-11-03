@@ -85,14 +85,35 @@ footer {
  END DO NOT CHANGE ZONE
  ##########################################################
 */
-.wrapper::first-letter {
+.wrapper:nth-child(2)::first-letter {
   font-size: 5rem;
   background-color: #666;
   color: #f2f2f2;
   font-style: normal;
   padding: .4em .2em;
   display: inline-block;
+  float: left;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
 }
+
+figure {
+  float: right;
+  width: 300px;
+  padding-top: 6px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 
   Colours: #333, #666, #f2f2f2
 Border thickness: 3px
