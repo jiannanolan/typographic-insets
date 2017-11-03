@@ -90,11 +90,13 @@ footer {
   background-color: #666;
   color: #f2f2f2;
   font-style: normal;
-  padding: .4em .2em;
+  padding: .2em;
   display: inline-block;
   float: left;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
+  margin: .2em;
+
 }
 
 figure {
@@ -103,6 +105,7 @@ figure {
   padding-top: 6px;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
+  font-size: .875rem;
 }
 
 blockquote {
@@ -112,14 +115,13 @@ blockquote {
   border-bottom: 3px solid #333;
   padding-top: 6px;
   padding-bottom: 6px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+p {
+ float: none;
 }
 
 
-  Colours: #333, #666, #f2f2f2
-Border thickness: 3px
-Text sizes: 5rem, 1.5rem, .875rem
 Paddings: .4em .2em, 6px 0, 6px
-Image & pull-quote width: 300px
-}
-
-  }/* Write your CSS here */
