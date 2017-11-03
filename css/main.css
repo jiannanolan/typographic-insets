@@ -91,6 +91,11 @@ footer {
   border-bottom: 3px solid #333;
   margin-right: .2em;
   margin-bottom: .2em;
+  margin-top: .05em;
+  padding-top: .15em;
+  padding-bottom: .15em;
+  padding-left: .2em;
+  padding-right: .2em;
 }
 
 figure {
@@ -100,6 +105,14 @@ figure {
   margin-left: .2em;
   margin-top: .2em;
   margin-bottom: .2em;
+  padding-top: 6px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: .875rem;
 }
 
 blockquote {
@@ -111,4 +124,17 @@ blockquote {
   margin-right: .2em;
   margin-top: .2em;
   margin-bottom: .2em;
+  padding: 6px;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-left: 0;
+}
+
+main.wrapper {
+  max-width: 60em;
+}
+
+main.wrapper > p {
+  max-width: 45em;
+  margin: auto;
 }
